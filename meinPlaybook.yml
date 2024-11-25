@@ -29,4 +29,10 @@
         name: meinNginx-container
         image: nginx
         state: started
-    
+
+    - name: Fehlerhafte Aufgabe
+        invalid_module:   # Ungültiges Modul
+        name: test
+    - name: Fehlerhafte Aufgabe 1
+        invalid_module:   # Ungültiges Modul
+        name: test 1
